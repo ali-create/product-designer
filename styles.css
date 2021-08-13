@@ -1,0 +1,41 @@
+.body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: gainsboro;
+}
+.header {
+  font-size: 25;
+  position: absolute;
+  background-color: cyan;
+  padding-top: 30;
+  padding-left: 60;
+  padding-right: 110%;
+  height: 220;
+  top: -30;
+  left: -30;
+  border-style: solid;
+  border-width: 10;
+  border-color: rgb(14, 204, 204);
+}
+.header p {
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: black;
+  color: white;
+}
+.imgContainer {
+  width: fit-content;
+}
+.text--info {
+  position: absolute;
+  left: 190%;
+  top: 10;
+  width: 500;
+  padding-left: 30;
+  background-color: cyan;
+  border-style: solid;
+  border-radius: 1rem;
+  border-color: rgb(14, 204, 204);
+}
+.product--info {
+  top: 300;
+  position: absolute;
+}

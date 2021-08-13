@@ -1,0 +1,1 @@
+http://127.0.0.1:5500/?data={"productName": "monke table", "price": 96, "sale": true, "saleDiscount": 99, "starRating": 5, "imgSRC": "https://i.kym-cdn.com/photos/images/newsfeed/001/131/258/07c.jpg", "imgScale": 200}
