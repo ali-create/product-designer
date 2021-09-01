@@ -1,0 +1,3 @@
+/?data={"productName": "Sea Monke", "price": "1.49$ (without taxes)", "sale": false, "saleDiscount": 0, "starRating": 5, "imgSRC": "1", "imgScale": 200, "Description" : "(no description provided) <br> Seller: <b>Joe</b> "}
+
+/?data={"productName": "monke table", "price": "96$", "sale": true, "saleDiscount": 99, "starRating": 5, "imgSRC": "https://i.kym-cdn.com/photos/images/newsfeed/001/131/258/07c.jpg", "imgScale": 300, "Description" : "This Item is a very <i style='color: orange'>fine</i> Monke Table! <br> We couldn't send a image of the <br> table so we put a very cool Monke. 😎"}
