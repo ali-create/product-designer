@@ -1,30 +1,71 @@
-<head>
-  <title class="title"></title>
-  <link href="styles.css" rel="stylesheet" />
-</head>
-<body class="body">
-  <div class="header">
-    <p class="product--name">Product Name</p>
-    <br />
-    <p class="price">Price</p>
-  </div>
-  <div>
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-  </div>
-  <div class="product--info">
-    <div class="imgContainer">
-      <img
-        class="img"
-        alt="Not Found"
-        onerror="this.src"
-        ="img/not_found.png"
-      />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title class="title"></title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body class="body">
+    <div class="screenOverlay"></div>
+    <nav class="header">
+      <p class="product--name">Product Name</p>
+      <br />
+      <p class="price">Price</p>
+    </nav>
+    <div><br /><br /><br /><br /><br /><br /><br /></div>
+    <div class="product--info">
+      <div class="imgContainer">
+        <img class="img" />
+      </div>
+      <br />
+
+      <div class="text--info">
+        <p class="is--sale">Is on sale</p>
+        <p class="sale--discount">Sale discount</p>
+        <p class="star--rating">Star rating</p>
+        <div class="purchase--item">
+          <button class="purchaseBtn">Purchase</button>
+        </div>
+      </div>
+
+      <br />
+      <div>
+        <p>&nbsp; Description:</p>
+        <p class="description">Description</p>
+      </div>
     </div>
-    <div class="text--info">
-      <p class="is--sale">Is on sale</p>
-      <p class="sale--discount">Sale discount</p>
-      <p class="star--rating">Star rating</p>
-    </div>
-  </div>
-  <script src="script.js"></script>
-</body>
+    <center>
+      <div><br /><br /><br /><br /><br /><br /><br /></div>
+      <div class="purchase--modal hidden">
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp; <button class="exit">X</button>
+        </div>
+
+        <p>Email address</p>
+        <input
+          type="email"
+          class="input--email"
+          placeholder="not your real one"
+        />
+        <p>Shipping address</p>
+        <br />
+        <input
+          type="text"
+          class="input--address"
+          placeholder="not your real one either"
+        />
+        <br />
+        <br />
+        <button class="ship">Done</button>
+      </div>
+      <div class="purchaseComplete hidden">
+        <p>Purchase Complete!</p>
+        <br />
+        <button class="ok">OK</button>
+      </div>
+    </center>
+    <script src="script.js"></script>
+  </body>
+</html>
