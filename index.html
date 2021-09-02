@@ -12,7 +12,9 @@
       <br />
       <p class="price">Price</p>
     </nav>
-    <div><br /><br /><br /><br /><br /><br /><br /></div>
+    <div>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </div>
     <div class="product--info">
       <div class="imgContainer">
         <img class="img" />
@@ -35,33 +37,43 @@
       </div>
     </div>
     <center>
-      <div><br /><br /><br /><br /><br /><br /><br /></div>
+      <!-- <div><br /><br /><br /><br /><br /><br /><br /></div> -->
       <div class="purchase--modal hidden">
         <div>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           &nbsp;&nbsp;&nbsp; <button class="exit">X</button>
         </div>
-
-        <p>Email address</p>
-        <input
-          type="email"
-          class="input--email"
-          placeholder="not your real one"
-        />
-        <p>Shipping address</p>
-        <br />
-        <input
-          type="text"
-          class="input--address"
-          placeholder="not your real one either"
-        />
-        <br />
-        <br />
-        <button class="ship">Done</button>
+        <div>
+          <br />
+          <div class="price--info">
+            <span class="product--name"></span>
+            <br />
+            <span class="price"></span>
+          </div>
+          <p>Email address</p>
+          <input
+            type="email"
+            class="input--email"
+            placeholder="not your real one"
+          />
+          <p>Shipping address</p>
+          <br />
+          <input
+            type="text"
+            class="input--address"
+            placeholder="not your real one either"
+          />
+          <br />
+          <br />
+          <button class="ship">Done</button>
+        </div>
       </div>
       <div class="purchaseComplete hidden">
-        <p>Purchase Complete!</p>
+        <p>
+          Shipping to your location! <br />
+          Est. Time: 5 min.
+        </p>
         <br />
         <button class="ok">OK</button>
       </div>
