@@ -123,9 +123,9 @@
   width: fit-content;
   padding: 10px 10px 10px 10px;
   color: white;
-  position: absolute;
+  /* position: absolute;
   left: 44.2%;
-  top: 300px;
+  top: 300px; */
 }
 .ship {
   background-color: blueviolet;
